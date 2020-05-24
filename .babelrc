@@ -1,0 +1,46 @@
+// {
+//     "presets": [                
+//         "@babel/env" ,
+//         "@babel/react"
+//     ],
+    
+//     "plugins": [
+//         "@babel/plugin-proposal-class-properties",
+//         "@babel/plugin-proposal-object-rest-spread"
+//     ]
+// }
+
+
+
+// {
+// 	"env": {
+// 		"development": {
+//             "plugins": ["transform-es2015-modules-commonjs",
+//                 "transform-object-rest-spread"]
+// 		},
+// 		"test": {
+// 			"plugins": ["transform-es2015-modules-commonjs", "@babel/plugin-proposal-class-properties","transform-object-rest-spread","transform-es2015-destructuring"],
+// 			"presets": [
+// 				"@babel/preset-react"
+// 			]
+// 		}
+// 	}
+// }
+
+{
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+
+    
+      // "plugins": [
+      //   "@babel/plugin-proposal-class-properties",
+      //   ["transform-object-rest-spread", { "useBuiltIns": true }]
+      // ]
+    
+  }
