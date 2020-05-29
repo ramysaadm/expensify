@@ -31,12 +31,12 @@ ReactDOM.render(<p>Loading...</p>,document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user)=>{
     if(user){
-        store.dispatch(login(user.id));
-        console.log('uid',user.uid)
+        store.dispatch(login(user.uid));
         store.dispatch(startSetExpenses()).then(()=>{
             renderApp();
-            if(history.location.pathname=='/'){
+            if(history.location.pathname==='/'){
                 history.push('/dashboard');
+                
             }
         });
     }else{
