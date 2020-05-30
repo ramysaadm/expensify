@@ -21,6 +21,7 @@
         "babel-cli": "6.24.1",
         "babel-jest": "^26.0.1",
         "babel-loader": "^8.1.0",
+        "babel-polyfill": "^6.26.0",
         "babel7-jest": "^1.0.1",
         "css-loader": "^3.5.3",
         "express": "^4.17.1",
