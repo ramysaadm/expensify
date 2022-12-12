@@ -24,7 +24,7 @@
         "babel-polyfill": "^6.26.0",
         "babel7-jest": "^1.0.1",
         "css-loader": "^3.5.3",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "extract-text-webpack-plugin": "^4.0.0-beta.0",
         "firebase": "^7.14.5",
         "history": "^4.10.1",
